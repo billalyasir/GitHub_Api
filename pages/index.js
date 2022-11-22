@@ -27,7 +27,7 @@ const Home = ({ data }) => {
                   {" "}
                   Username : {x.login}
                 </h1>
-                <a target="_blank" className="text-white" href={x.html_url}>
+                <a target="_blank" rel="noreferrer" className="text-white" href={x.html_url}>
                   <button className="btn mt-3 m-auto block w-full bg-[#222] py-2 px-3">
                     Visit Profile
                   </button>
